@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:spotipyt/core/configs/theme/app_theme.dart';
-import 'package:spotipyt/presentation/intro/pages/get_started.dart';
-import 'package:spotipyt/presentation/splash/pages/splash.dart';
+
+import 'core/configs/theme/app_theme.dart';
+import 'presentation/intro/pages/get_started.dart';
+import 'presentation/splash/pages/splash.dart';
 
 void main() {
   runApp(const MyApp());
