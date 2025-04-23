@@ -81,19 +81,24 @@ class ChooseModePage extends StatelessWidget {
                     SizedBox(width: 40),
                     Column(
                       children: [
-                        ClipOval(
-                          child: BackdropFilter(
-                            filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                            child: Container(
-                              height: 80,
-                              width: 80,
-                              decoration: BoxDecoration(
-                                color: Color(0xff30393c).withOpacity(0.5),
-                                shape: BoxShape.circle,
-                              ),
-                              child: SvgPicture.asset(
-                                AppVectors.sun,
-                                fit: BoxFit.none,
+                        GestureDetector(
+                          onTap: () {
+                            // Handle light mode selection
+                          },
+                          child: ClipOval(
+                            child: BackdropFilter(
+                              filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                              child: Container(
+                                height: 80,
+                                width: 80,
+                                decoration: BoxDecoration(
+                                  color: Color(0xff30393c).withOpacity(0.5),
+                                  shape: BoxShape.circle,
+                                ),
+                                child: SvgPicture.asset(
+                                  AppVectors.sun,
+                                  fit: BoxFit.none,
+                                ),
                               ),
                             ),
                           ),
