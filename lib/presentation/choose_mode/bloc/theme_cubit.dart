@@ -5,7 +5,7 @@ class ThemeCubit extends HydratedCubit<ThemeMode> {
 
   ThemeCubit() : super(ThemeMode.system);
 
-  void updateTheme(ThemeMode Thememode) => emit(Thememode);
+  void updateTheme(ThemeMode thememode) => emit(thememode);
 
   @override
   ThemeMode? fromJson(Map<String, dynamic> json) {

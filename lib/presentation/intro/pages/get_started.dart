@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 import '../../../common/widgets/button/basic_app_button.dart';
-import '../../../core/configs/assets/app-images.dart';
-import '../../../core/configs/assets/app-vectors.dart';
+import '../../../core/configs/assets/app_images.dart';
+import '../../../core/configs/assets/app_vectors.dart';
 import '../../../core/configs/theme/app_colors.dart';
 import '../../choose_mode/pages/choose_mode.dart';
 
